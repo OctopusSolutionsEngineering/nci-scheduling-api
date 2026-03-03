@@ -9,10 +9,10 @@ on:
   workflow_dispatch: {}
 
 env:
-  OCTOPUS_URL: https://your.octopus.app
-  OCTOPUS_SERVICE_ACCOUNT: service account id
-  OCTOPUS_SPACE: Your space
-  PACKAGE_ID: YourApp
+  OCTOPUS_URL: https://wrg.octopus.app
+  OCTOPUS_SERVICE_ACCOUNT: b45a10cc-1380-480d-ab25-28e36d54cd63
+  OCTOPUS_SPACE: New Cascadia Imports
+  PACKAGE_ID: ClinicPortal.SchedulingApi
 
 jobs:
   build:
